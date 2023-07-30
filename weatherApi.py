@@ -8,7 +8,7 @@ load_dotenv()
 
 weatherkey = "353dd151830b426ca47115011232202"
 response2 = requests.get(
-    "http://api.weatherapi.com/v1/current.json?key=353dd151830b426ca47115011232202&q=Dublin&aqi=no")
+    "http://api.weatherapi.com/v1/current.json?key=[INSERT_KEY]&q=Dublin&aqi=no")
 # print(response2)
 # print(response2.json())
 
