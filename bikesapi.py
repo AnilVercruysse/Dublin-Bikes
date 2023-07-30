@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 response = requests.get(
-    "https://api.jcdecaux.com/vls/v1/stations?contract=dublin&apiKey=abceac9fec61cd1904ec4ba210d89909680dd754")
+    "https://api.jcdecaux.com/vls/v1/stations?contract=dublin&apiKey=[INSERT_KEY]")
 # print(response.json())
 
 # Send a request to the API and retrieve the JSON response
