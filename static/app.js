@@ -350,7 +350,7 @@ function initMap() {
 
 function loadMap() {
   const script = document.createElement("script");
-  script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB7i4zP407KIL6x7gL_pf5h5lHR8uDwj58&libraries=geometry,visualization&callback=initMap`;
+  script.src = `https://maps.googleapis.com/maps/api/js?key=[INSERT_KEY]&libraries=geometry,visualization&callback=initMap`;
   script.defer = true;
   script.async = true;
   document.head.appendChild(script);
